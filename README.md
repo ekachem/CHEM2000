@@ -308,7 +308,7 @@ For independent variables, ![Eq1](https://latex.codecogs.com/svg.image?\langle{X
 
 If \(X\) and \(Y\) are independent, then:
 
-![Eq1](https://latex.codecogs.com/svg.image?\langle%20XY\rangle=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}XY\rho(x)\rho(y)\,dx\,dy=(\int_{-\infty}^{\infty}x\rho(x)\,dx)(\int_{-\infty}^{\infty}y\rho(y)\,dy)=\langle%20X\rangle\langle%20Y\rangle)
+![Eq1](https://latex.codecogs.com/svg.image?\langle%20XY\rangle=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}XY\rho(x)\rho(y){dx}{dy}=(\int_{-\infty}^{\infty}x\rho(x){dx})(\int_{-\infty}^{\infty}y\rho(y){dy})=\langle%20X\rangle\langle%20Y\rangle)
 
 Substituting this into the variance relation gives:
 

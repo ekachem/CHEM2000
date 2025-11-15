@@ -26,7 +26,7 @@ For a uniform distribution (equal likelihood in all directions):
 
 which is independent of ϕ, and indeed satisfies:
 
-![Eq4](https://latex.codecogs.com/svg.image?\int_{0}^{2\pi}\rho(\phi)}\{d\phi}=1)
+![Eq4](https://latex.codecogs.com/svg.image?\int_{0}^{2\pi}\rho(\phi)}{d\phi}=1)
 
 ---
 
@@ -34,21 +34,21 @@ which is independent of ϕ, and indeed satisfies:
 
 Consider a one-dimensional box of length \(L\) into which we randomly drop a small sphere. The probability of the sphere landing at a position \(x\) follows a continuous distribution ρ(x)dx, which must also be normalized to 1:
 
-![Eq5](https://latex.codecogs.com/svg.image?\int_{0}^{L}\rho(x)\,dx=1)
+![Eq5](https://latex.codecogs.com/svg.image?\int_{0}^{L}\rho(x){dx}=1)
 
 The probability of finding the sphere within a certain range range a≤x≤b is given by:
 
-![Eq6](https://latex.codecogs.com/svg.image?P(a\le%20x\le%20b)=\int_{a}^{b}\rho(x)\,dx)
+![Eq6](https://latex.codecogs.com/svg.image?P(a\le%20x\le%20b)=\int_{a}^{b}\rho(x){dx})
 
 All the concepts developed for discrete distributions can be extended to continuous distributions. For example:
 
-![Eq7](https://latex.codecogs.com/svg.image?\langle%20x\rangle=\int_{-\infty}^{\infty}x\rho(x)\,dx)
+![Eq7](https://latex.codecogs.com/svg.image?\langle%20x\rangle=\int_{-\infty}^{\infty}x\rho(x){dx})
 
-![Eq8](https://latex.codecogs.com/svg.image?\langle%20x^{2}\rangle=\int_{-\infty}^{\infty}x^{2}\rho(x)\,dx)
+![Eq8](https://latex.codecogs.com/svg.image?\langle%20x^{2}\rangle=\int_{-\infty}^{\infty}x^{2}\rho(x){dx})
 
 and the variance is defined as:
 
-![Eq9](https://latex.codecogs.com/svg.image?\sigma_{x}^{2}=\int_{-\infty}^{\infty}(x-\langle%20x\rangle)^{2}\rho(x)\,dx)
+![Eq9](https://latex.codecogs.com/svg.image?\sigma_{x}^{2}=\int_{-\infty}^{\infty}(x-\langle%20x\rangle)^{2}\rho(x){dx})
 
 ---
 
@@ -84,11 +84,11 @@ See Slide 5 for the probability of finding a value within 1 σ, 2 σ, and 3 σ o
 
 [ https://en.wikipedia.org/wiki/Normal_distribution ]
 
-![Eq1](https://latex.codecogs.com/svg.image?\int_{-\sigma}^{\sigma}\frac{1}{\sqrt{2\pi\sigma^{2}}}e^{-x^{2}/(2\sigma^{2})}\,dx=0.6827)
+![Eq1](https://latex.codecogs.com/svg.image?\int_{-\sigma}^{\sigma}\frac{1}{\sqrt{2\pi\sigma^{2}}}e^{-x^{2}/(2\sigma^{2})}{dx}=0.6827)
 
-![Eq2](https://latex.codecogs.com/svg.image?\int_{-2\sigma}^{2\sigma}\frac{1}{\sqrt{2\pi\sigma^{2}}}e^{-x^{2}/(2\sigma^{2})}\,dx=0.9545)
+![Eq2](https://latex.codecogs.com/svg.image?\int_{-2\sigma}^{2\sigma}\frac{1}{\sqrt{2\pi\sigma^{2}}}e^{-x^{2}/(2\sigma^{2})}{dx}=0.9545)
 
-![Eq3](https://latex.codecogs.com/svg.image?\int_{-3\sigma}^{3\sigma}\frac{1}{\sqrt{2\pi\sigma^{2}}}e^{-x^{2}/(2\sigma^{2})}\,dx=0.9973)
+![Eq3](https://latex.codecogs.com/svg.image?\int_{-3\sigma}^{3\sigma}\frac{1}{\sqrt{2\pi\sigma^{2}}}e^{-x^{2}/(2\sigma^{2})}{dx}=0.9973)
 
 Thus, approximately **68.3%**, **95.5%**, and **99.7%** of the total probability lie within **1 σ**, **2 σ**, and **3 σ** of the mean, respectively.
 
@@ -119,7 +119,7 @@ $$
 
 and
 
-![Eq7](https://latex.codecogs.com/svg.image?\int_{-\infty}^{\infty}\delta(x-a)\,dx=1)
+![Eq7](https://latex.codecogs.com/svg.image?\int_{-\infty}^{\infty}\delta(x-a){dx}=1)
 
 ---
 
@@ -236,7 +236,7 @@ gives the probability that:
 
 The normalization condition must hold:
 
-![Eq2](https://latex.codecogs.com/svg.image?\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}\rho(x,y)\,dx\,dy=1)
+![Eq2](https://latex.codecogs.com/svg.image?\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}\rho(x,y){dx}{dy}=1)
 
 ---
 
@@ -244,7 +244,7 @@ The normalization condition must hold:
 
 If we integrate over one variable, we obtain the marginal distribution of the other:
 
-![Eq3](https://latex.codecogs.com/svg.image?\rho(x)=\int_{-\infty}^{\infty}\rho(x,y)\,dy)
+![Eq3](https://latex.codecogs.com/svg.image?\rho(x)=\int_{-\infty}^{\infty}\rho(x,y){dy})
 
 This gives the probability distribution of \(x\) after averaging over all values of \(y\).
 
@@ -254,7 +254,7 @@ This gives the probability distribution of \(x\) after averaging over all values
 
 The expected (mean) value of any function \(f(x,y)\) is:
 
-![Eq4](https://latex.codecogs.com/svg.image?\langle%20f(x,y)\rangle=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}f(x,y)\rho(x,y)\,dx\,dy)
+![Eq4](https://latex.codecogs.com/svg.image?\langle%20f(x,y)\rangle=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}f(x,y)\rho(x,y){dx}{dy})
 
 ---
 
@@ -278,7 +278,7 @@ since the outcomes are independent.
 
 For two random variables \(X\) and \(Y\):
 
-![Eq7](https://latex.codecogs.com/svg.image?\langle%20X+Y\rangle=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}(X+Y)\rho(x,y)\,dx\,dy)
+![Eq7](https://latex.codecogs.com/svg.image?\langle%20X+Y\rangle=\int_{-\infty}^{\infty}\int_{-\infty}^{\infty}(X+Y)\rho(x,y){dx}{dy})
 
 This separates as:
 

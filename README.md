@@ -12,7 +12,7 @@ We introduce a function ρ(ϕ) to represent the probability density, or propensi
 
 The total probability over all possible directions must be:
 
-![Eq1](https://latex.codecogs.com/svg.image?\int_{0}^{2\pi}\rho(\phi)\{d\phi}=1)
+![Eq1](https://latex.codecogs.com/svg.image?\int_{0}^{2\pi}\rho(\phi){d\phi}=1)
 
 Here,
 

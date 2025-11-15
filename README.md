@@ -58,6 +58,8 @@ The most important continuous probability distribution is the Gaussian (Normal) 
 
 ![Eq10](https://latex.codecogs.com/svg.image?\rho(x){dx}=\frac{1}{\sqrt{2\pi\sigma^{2}}}e^{-x^{2}/(2\sigma^{2})}{dx})
 
+in the range ![Eq7](https://latex.codecogs.com/svg.image?{-\infty}<x<{\infty})
+
 For this distribution:
 
 ![Eq11](https://latex.codecogs.com/svg.image?\langle%20x\rangle=0)

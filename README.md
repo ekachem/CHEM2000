@@ -227,7 +227,7 @@ The joint probability density function ρ(x,y) describes the combined probabilit
 
 The quantity:
 
-![Eq1](https://latex.codecogs.com/svg.image?\rho(x,y)\,dx\,dy)
+![Eq1](https://latex.codecogs.com/svg.image?\rho(x,y){dx}{dy})
 
 gives the probability that:
 

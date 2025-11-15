@@ -26,7 +26,7 @@ For a uniform distribution (equal likelihood in all directions):
 
 which is independent of ϕ, and indeed satisfies:
 
-![Eq4](https://latex.codecogs.com/svg.image?\int_{0}^{2\pi}\rho(\phi)\,d\phi=1)
+![Eq4](https://latex.codecogs.com/svg.image?\int_{0}^{2\pi}\rho(\phi)}\{d\phi}=1)
 
 ---
 

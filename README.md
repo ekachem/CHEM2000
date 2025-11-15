@@ -16,7 +16,7 @@ The total probability over all possible directions must be:
 
 Here,
 
-![Eq2](https://latex.codecogs.com/svg.image?\rho(\phi)\{d\phi})
+![Eq2](https://latex.codecogs.com/svg.image?\rho(\phi){d\phi})
 
 represents the probability that the arrow points within the infinitesimal range dϕ around φ.
 
@@ -26,7 +26,7 @@ For a uniform distribution (equal likelihood in all directions):
 
 which is independent of ϕ, and indeed satisfies:
 
-![Eq4](https://latex.codecogs.com/svg.image?\int_{0}^{2\pi}\rho(\phi)}{d\phi}=1)
+![Eq4](https://latex.codecogs.com/svg.image?\int_{0}^{2\pi}\rho(\phi){d\phi}=1)
 
 ---
 

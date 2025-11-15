@@ -56,7 +56,7 @@ and the variance is defined as:
 
 The most important continuous probability distribution is the Gaussian (Normal) distribution, defined as:
 
-![Eq10](https://latex.codecogs.com/svg.image?\rho(x)=\frac{1}{\sqrt{2\pi\sigma^{2}}}e^{-x^{2}/(2\sigma^{2})})
+![Eq10](https://latex.codecogs.com/svg.image?\rho(x){dx}=\frac{1}{\sqrt{2\pi\sigma^{2}}}e^{-x^{2}/(2\sigma^{2})}{dx})
 
 For this distribution:
 
